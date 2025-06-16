@@ -1,0 +1,164 @@
+@media (min-width: 1024px) {
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+    height: 80px;
+}
+.right-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+.right-section a {
+    text-decoration: none;
+    color: black;
+}
+.right-section p:hover {
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+.right-section img {
+    display: none;
+}
+
+
+
+.body-section {
+    height: 444px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.Title-Works-section h1 {
+    font-size: 40px;
+}
+.left-body-section {
+    height: 328px;
+    width: 620px;
+}
+.left-body-section button{
+    color: white;
+    background-color: black;
+    padding: 14px 34px 14px 34px;
+    font-size: 22px;
+    margin-top: 70px;
+    border: black solid 1px;
+
+}
+.left-body-section button:hover {
+    cursor: pointer;
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+}
+.left-body-section h1 {
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.right-body-section {
+    height: 328px;
+}
+.right-body-section img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Latest Works Section */
+.Works-section {
+    text-align: center;
+    margin-bottom: 120px;
+}
+.image {
+    height: 390px;
+    background-color: black;
+}
+.Gallery-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.image img {
+    width: 100%; 
+    height: 100%;
+}
+.title-image h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.title-image p {
+    margin-top: 0;
+}
+.container-image{
+    text-align: left;
+}
+.image1 h2 {
+    margin-top: 0;
+
+}
+.button-work-section button{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    padding: 14px 34px 14px 34px;
+    border: black solid 1px;
+    font-size: 22px;
+}
+.button-work-section button:hover {
+    cursor: pointer;
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+}
+/* Skills Section */
+.Skill-section {
+    text-align: center;
+    margin-bottom: 120px;
+}
+.Skill-section h1 {
+    font-size: 40px;
+}
+.list-skill-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-logo {
+    height: 180px;
+}
+
+
+/* Contact Section */
+.Contact-section {
+    display: flex;
+    justify-content: space-between;
+}
+.left-contact-section {
+    width: 570px;
+}
+.right-contact-section {
+    width: 500px;
+}
+.right-contact-section input {
+    padding: 10px;
+    width: 380px;
+    height: 25px;
+    background-color: #F3F3F3;
+    border: none;
+    margin-bottom: 5px;
+    display: block;
+}
+.right-contact-section button {
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    padding: 14px 34px 14px 34px;
+    border: none;
+    margin-top: 5px;
+}
+}

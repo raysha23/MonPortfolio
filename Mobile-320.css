@@ -1,0 +1,143 @@
+@media (min-width: 320px) {
+    body {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    width: 728px;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left-section h1{
+        font-size: 60px;
+        margin-left: 80px;
+    }
+    .right-section img{
+        width: 110px;
+        margin-right: 40px;
+    }
+    .right-section p {
+        display: none;
+    }
+
+
+    /* body section */
+    .body-section {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .right-body-section img {
+        width: 600px;
+    }
+    .left-body-section {
+        width: 550px;
+        display: inline-block;
+        text-align: left;
+    }
+    .left-body-info h1 {
+        font-size: 80px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .left-body-info p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .left-body-button button {
+        color: white;
+        background-color: black;
+        padding: 14px 34px 14px 34px;
+        font-size: 22px;
+        border: black solid 1px;
+    }
+
+   
+    /* Work Section */
+    .Works-section {
+        text-align: center;
+    }  
+    .Works-section h1{
+        font-size: 40px;
+    }    
+    .Gallery-section {
+        text-align: center;
+    }
+    .container-image {
+        width: 650px;
+        display: inline-block;
+    }
+    .container-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .container-image h2,p {
+        text-align: left;
+    }
+    .button-work-section button {
+        color: white;
+        background-color: black;
+        padding: 14px 34px 14px 34px;
+        font-size: 22px;
+        border: black solid 1px;
+        margin-bottom: 120px;
+    }
+
+
+    /* Skill section */
+    .Skill-section {
+        text-align: center;
+    }
+    .Skill-section h1 {
+        font-size: 50px;
+    }
+    .skill {
+        margin-bottom: 30px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+
+    /* Contact section */
+
+    .Contact-section {
+        text-align: center;
+        max-width: 650px;
+        margin: 0 auto; /* This centers it horizontally */
+        padding: 20px;
+        border-radius: 10px; /* optional for a nice look */
+        border: 1px solid;
+    }
+
+    .contact-container-section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; /* For responsiveness */
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .left-contact-section, .right-contact-section {
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .right-contact-section input, .right-contact-section button {
+        display: block;
+        width: 90%;
+        margin-bottom: 10px;
+        border: none;
+        padding: 10px;
+    }
+    .right-contact-section button {
+        background-color: black;
+        color: white;
+    }
+
+}
+
+
